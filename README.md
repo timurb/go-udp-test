@@ -8,7 +8,7 @@
 
 ## Results
 
-Here are the results obtain on my MacBook:
+Here are the results obtain on my MacBook for 1000000 iterations:
 
 ```
 $ ./run.sh

@@ -11,6 +11,8 @@
 Here are the results obtain on my MacBook for 1000000 iterations:
 
 ```
+$ go version
+go version go1.3.3 darwin/amd64
 $ ./run.sh
 Running test1: iteration
 

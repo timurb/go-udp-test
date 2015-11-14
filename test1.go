@@ -15,11 +15,12 @@ func main() {
     os.Exit(1)
   }
 
-  fmt.Fprintf(conn, "init")
+  defer conn.Close()
 
-/*  Iterate MAX times. Itoa and Printf are called to reduce difference between 2 tests */
+/*  Iterate MAX times. Conversion to string and buf is called to reduce difference between 2 tests */
   for i := 0; i < MAX; i++ {
     x :=  strconv.Itoa(i)
-    fmt.Printf(x)
+    buf := []byte(x)
+    buf = buf
   }
 }

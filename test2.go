@@ -16,6 +16,7 @@ func main() {
 
   fmt.Fprintf(conn, "init")
 
+/*  Iterate MAX times. Send numbers over UDP to localhost */
   for i := 0; i < MAX; i++ {
     x :=  strconv.Itoa(i)
     fmt.Printf(x)
